@@ -206,8 +206,8 @@ function testWhatsAppLinks() {
     }
     
     // اختبار تنسيق الرقم
-    const testPhone1 = '201011612711';
-    const testPhone2 = '01011612711';
+    const testPhone1 = '201090082342';
+    const testPhone2 = '01090082342';
     const testMessage = 'Test message';
     
     console.log('Test URL with country code:', `https://wa.me/${testPhone1}?text=${encodeURIComponent(testMessage)}`);
@@ -372,7 +372,7 @@ function handleFormSubmission(form) {
         console.log('WhatsApp message created:', whatsappMessage);
         
         // فتح واتساب مع الرسالة
-        const phoneNumber = '201011612711';
+        const phoneNumber = '201090082342';
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
         
         console.log('Opening WhatsApp URL:', whatsappUrl);
@@ -482,7 +482,7 @@ function showSuccessMessage() {
 
 // دالة فتح واتساب مباشر
 function openDirectWhatsApp() {
-    const phoneNumber = '201011612711';
+    const phoneNumber = '201090082342';
     const message = `مرحباً، أريد استشارة هندسية من الاتحاد للتصميمات والاستشارات الهندسية
 
 أحتاج إلى:
