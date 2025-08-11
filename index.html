@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الاتحاد للتصميمات والاستشارات الهندسية</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Modern Loading Screen -->
+    <div id="loadingScreen" class="loading-screen">
+        <div class="loading-container">
+            <!-- Professional Loading Bar -->
+            <div class="loading-bar-container">
+                <div class="loading-bar">
+                    <div class="loading-progress" id="loadingProgress"></div>
+                </div>
+                <div class="loading-percentage" id="loadingPercentage">0%</div>
+                <div class="loading-message" id="loadingMessage">جاري تحميل الموقع...</div>
+            </div>
+            
+            <!-- Arabic Text -->
+            <div class="loading-text">
+                <h1>الاتحاد للتصميمات</h1>
+                <h2>والاستشارات الهندسية</h2>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="photos\logo.png" alt="شعار الاتحاد للتصميمات والاستشارات الهندسية">
+                <h1>الاتحاد للتصميمات والاستشارات الهندسية</h1>
+            </div>
+            <nav>
+                <button class="menu-toggle" id="menuToggle">
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line"></div>
+                </button>
+                <ul id="mainMenu">
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#services">خدماتنا</a></li>
+                    <li><a href="#projects">مشاريعنا</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#contact">طلب استشاره</a></li>
+                </ul>
+            </nav>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h2>رواية جديدة في التصميمات الهندسية</h2>
+            <p>نقدم حلولاً هندسية مبتكرة تلبي احتياجاتك وتتجاوز توقعاتك. خبرة واسعة في التصميم والاستشارات الهندسية لمشاريع متنوعة.</p>
+            <a href="#contact" class="btn">اطلب استشارة مجانية</a>
+        </div>
+        
+        <!-- زر واتساب دائري في القسم الأول -->
+        <div class="whatsapp-floating-btn" id="whatsappFloatingBtn">
+            <a href="https://wa.me/201090082342?text=مرحباً، أريد استشارة هندسية من الاتحاد للتصميمات والاستشارات الهندسية" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+                <span class="whatsapp-text">واتساب مباشر</span>
+            </a>
+        </div>
+        
+        <!-- زر فيسبوك دائري في القسم الأول -->
+        <div class="facebook-floating-btn" id="facebookFloatingBtn">
+            <a href="https://www.facebook.com/united.engineering" target="_blank">
+                <i class="fab fa-facebook"></i>
+                <span class="facebook-text">تابعنا على فيسبوك</span>
+            </a>
+        </div>
+    </section>
+
+    <section class="section" id="services">
+        <div class="container">
+            <h2 class="section-title">خدماتنا</h2>
+            <div class="services">
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="التصميم المعماري">
+                    <div class="service-content">
+                        <h3>التصميم المعماري</h3>
+                        <p>تصميمات معمارية مبتكرة تلبي احتياجات العملاء وتواكب أحدث الاتجاهات العالمية في مجال العمارة.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="التصميم الإنشائي">
+                    <div class="service-content">
+                        <h3>التصميم الإنشائي</h3>
+                        <p>حلول إنشائية آمنة واقتصادية باستخدام أحدث البرامج والتقنيات في مجال الهندسة الإنشائية.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="photos\build.jpg" alt="الاستشارات الهندسية">
+                    <div class="service-content">
+                        <h3>الاستشارات الهندسية</h3>
+                        <p>تقديم استشارات هندسية متخصصة في مختلف المجالات لضمان نجاح المشاريع وتحقيق أعلى معايير الجودة.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title">مشاريعنا</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <img src="photos\500m.jpg" alt="مشروع فندق الخليج">
+                    <div class="project-info">
+                        <h3> </h3>
+                        <p>فيلا سكنيه 500 م  بالحى السكنى الرابع . مدينة برج العرب الجديده</p>
+                     
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="photos\800m.jpg" alt="مجمع سكني النخيل">
+                    <div class="project-info">
+                       
+                        <p>فيلا سكنيه 800 م  بالحى السكنى الاول  . مدينة برج العرب الجديده</p>
+                      
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="photos\600m.jpg" alt="مركز تجاري الرياض">
+                    <div class="project-info">
+                       
+                        <p>فيلا سكنيه 600 م بالحى السكنى الرابع. مدينة برج العرب الجديده</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">من نحن</h2>
+            <div class="about">
+                <div class="about-content">
+                    <h3>الاتحاد للتصميمات والاستشارات الهندسية</h3>
+                    <p>شركة رائدة في مجال التصميمات والاستشارات الهندسية، تأسست عام 2005 بهدف تقديم حلول هندسية متكاملة تلبي احتياجات العملاء في مختلف القطاعات.</p>
+                    <p>نتميز بفريق من المهندسين والخبراء ذوي الكفاءة العالية والذين يتمتعون بخبرة واسعة في مجال التصميم والاستشارات الهندسية.</p>
+                    <p>نقدم خدماتنا وفقاً لأعلى المعايير العالمية وباستخدام أحدث التقنيات والبرامج في مجال الهندسة.</p>
+                    <a href="#contact" class="btn">اتصل بنا</a>
+                </div>
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="عن الشركة">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">فريقنا</h2>
+            <div class="team">
+                <div class="team-member">
+                    <img src="photos\mohamedmsbah.jpg" alt="المهندس أحمد محمد">
+                    <h4>المهندس محمد مصباح</h4>
+                    <p> مدير المكتب </p>
+                </div>
+                <div class="team-member">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="المهندسة سارة عبدالله">
+                    <h4>المهندسة سارة عبدالله</h4>
+                    <p>كبيرة مهندسين التصميم و المكتب الفنى</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="المهندس خالد علي">
+                    <h4>المهندس خالد علي</h4>
+                    <p>مهندسة تصميم و مكتب فنى</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title">طلب استشاره</h2>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">الاسم الكامل</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">البريد الإلكتروني</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">رقم الهاتف</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">الرسالة</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn" onclick="submitContactForm(); return false;">
+                        <i class="fab fa-whatsapp" style="margin-left: 8px;"></i>
+                        ارسال الاستشاره
+                    </button>
+                    
+                    <!-- زر واتساب مباشر كبديل -->
+                    <button type="button" class="btn btn-whatsapp-direct" onclick="openDirectWhatsApp()" style="margin-top: 10px; background: linear-gradient(135deg, #25D366, #128C7E);">
+                        <i class="fab fa-whatsapp" style="margin-left: 8px;"></i>
+                        واتساب مباشر
+                    </button>
+                    
+                    <!-- زر اختبار للتأكد من عمل النموذج -->
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>الاتحاد للتصميمات والاستشارات الهندسية</h3>
+                    <p>شركة رائدة في مجال التصميمات والاستشارات الهندسية، نقدم حلولاً مبتكرة تلبي احتياجات عملائنا في مختلف القطاعات.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#services">خدماتنا</a></li>
+                        <li><a href="#projects">مشاريعنا</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#contact">طلب استشاره</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>معلومات التواصل</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> الاسكندريه برج العرب الجديدة عمارة 4 شقه 1 الاسكان التجاري حي 1</li>
+                        <li><i class="fas fa-phone"></i> 01090082342</li>
+                        <li><i class="fas fa-envelope"></i> uniteds5eo@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 الاتحاد للتصميمات والاستشارات الهندسية. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js?v=14"></script>
+</body>
+</html> 
